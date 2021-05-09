@@ -26,6 +26,10 @@ Perfect for disaster scenarios and offline usage. MacOS and Linux.
 * Inline Page links to "in-branch" Pages are downloaded twice - should be linked to first download.
 * Any issue with the [notionapi project](https://github.com/kjk/notionapi/issues).
 
+## Alternatives
+* This [Automated Notion Backups](https://artur-en.medium.com/automated-notion-backups-f6af4edc298d) solution by [Artur Burtsev](https://gitlab.com/aburtsev) leverages GitLab and [automates](https://gitlab.com/aburtsev/notion-backup-script/-/raw/master/.gitlab-ci.yml) the native Notion export functionality.
+* Also, Notion's "export" functionality is great, but hard to automate/schedule.
+
 ## Contributing
 
 **Something bugging you?** Please open an Issue or Pull Request - we're here to help!
