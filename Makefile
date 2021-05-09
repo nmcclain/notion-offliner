@@ -1,4 +1,7 @@
-all: linux macos macm1
+all: clean linux macos macm1
+
+clean:
+	rm -f build/*
 
 linux:
 	GOOS=linux GOARCH=amd64 go build -o build/notion-offliner-linux-amd64
