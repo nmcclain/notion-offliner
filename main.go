@@ -18,6 +18,8 @@ import (
 	"github.com/nmcclain/notion-offliner/tohtml"
 )
 
+const Version = "1.0"
+
 var usage = `notion-offliner
 Usage:
   notion-offliner [options] <pageid>
@@ -43,7 +45,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("template parse:  %v", err)
 	}
-	args, _ := docopt.ParseDoc(usage)
+	args, _ := docopt.Parse(usage, nil, true, Version, false)
 	pageID := cleanupPageID(args["<pageid>"].(string))
 	msg := ""
 	if args["-m"] != nil {
