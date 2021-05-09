@@ -9,6 +9,7 @@ Perfect for disaster scenarios and offline usage. MacOS and Linux.
 * If you want to access private Pages, you must set the `NOTION_TOKEN` environment variable.
   * For example: `export NOTION_TOKEN=XXXXXXX`
   * You can find the token in your logged-in browser's cookies. It's named `token_v2`.
+  * For more guidance, [Red Gregory](https://redgregory.me/) shared [step-by-step details](https://www.redgregory.com/notion/2020/6/15/9zuzav95gwzwewdu1dspweqbv481s5) - thank you!
   * Or here's an [automated way to get your token](https://gist.github.com/nmcclain/30e4f5ee231e606bc4a1dcedef1c551f).
 
 ## Features
