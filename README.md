@@ -4,6 +4,7 @@ A CLI tool that you can use create regular backups of your Notion.so Pages.
 Perfect for disaster scenarios and offline usage. MacOS and Linux.
 
 ## Usage
+* Download it for [Linux AMD64](https://github.com/nmcclain/notion-offliner/releases/download/v0.1/notion-offliner-linux-amd64), [MacOS](https://github.com/nmcclain/notion-offliner/releases/download/v0.1/notion-offliner-macos), or [MacOS M1](https://github.com/nmcclain/notion-offliner/releases/download/v0.1/notion-offliner-macos-m1).
 * `./notion-offliner https://www.notion.so/Learn-the-shortcuts-66e28cec810548c3a4061513126766b0`
 * If you want to access private Pages, you must set the `NOTION_TOKEN` environment variable.
   * For example: `export NOTION_TOKEN=XXXXXXX`
