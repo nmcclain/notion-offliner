@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This tool was written before the official Notion API was released and has not been updated to support it.
+
 # notion-offliner
 A CLI tool that you can use create regular backups of your Notion.so Pages.
 
